@@ -2,7 +2,7 @@ from tkinter import *
 import requests
 
 def get_quote():
-    """Uses the kanye.rest api to get a random kanye request."""
+    """Uses the kanye.rest api to return a random kanye request."""
     url = "https://api.kanye.rest"
     
     response = requests.get(url)
